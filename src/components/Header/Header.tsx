@@ -5,12 +5,12 @@ import { IoMenu } from 'react-icons/io5';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 const Header = () => {
   return (
-    <div className='p-10 flex justify-between items-center'>
+    <div className='p-10 flex justify-between items-center  '>
       <div className='flex items-center space-x-2 '>
-        <img src={Icon} alt='' className='h-8' />
+        <img src={Icon} alt='' className='h-8 ' />
         <h1>Furnix</h1>
       </div>
-      <div className='md:flex list-none space-x-4 hidden'>
+      <div className='md:flex list-none space-x-4 hidden pl-[10rem]'>
         <li>Furniture</li>
         <li>Our store</li>
         <li>Blog</li>
