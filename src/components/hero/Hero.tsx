@@ -1,14 +1,14 @@
 const Hero = () => {
   return (
-    <div className='flex justify-center items-center mt-10 flex-col '>
-      <div className=''>
-        <h1 className='text-[60px] text-center font-mono font-bold'>
+    <div className='flex justify-center items-center mt-10 flex-col p-4 md:p-0 '>
+      <div className=' '>
+        <h1 className='  text-[48px] md:text-[60px] text-center font-mono font-bold'>
           FIND YOUR
         </h1>
-        <h1 className='text-[60px]  font-thin text-center  '>
+        <h1 className='text-[48px]  font-thin text-center mt-[-16px]  '>
           DREAM FURNITURE
         </h1>
-        <p className='text-center font-thin text-xl '>
+        <p className='text-center font-thin   text-xl md:mt-8 '>
           Explore World Class Top Furniture As Per Your Requirements & Choice
         </p>
       </div>
