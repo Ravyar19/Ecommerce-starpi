@@ -2,6 +2,7 @@ import Furniture from './components/Furniture/Furniture';
 import Header from './components/Header/Header';
 import Hero from './components/hero/Hero';
 import Products from './components/products/Products';
+import Productss from './components/products/Products';
 
 function App() {
   return (
