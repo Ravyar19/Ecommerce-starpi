@@ -1,6 +1,7 @@
 import Furniture from './components/Furniture/Furniture';
 import Header from './components/Header/Header';
 import Hero from './components/hero/Hero';
+import Products from './components/products/Products';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Hero />
       <Furniture />
+      <Products />
     </main>
   );
 }
